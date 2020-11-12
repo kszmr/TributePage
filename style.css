@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  background: url(https://i.imgur.com/V4qaJiX.jpg);
+  background-repeat: repeat;
+  font-family: 'Special Elite', cursive;
+  color: #161616;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: url(https://i.imgur.com/0WMIzoy.png);
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  top: 0;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.nonselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header h1 {
+  position: absolute;
+  padding-left: 180px;
+  padding-bottom: 100px;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1.875em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  background: #EBBB48;
+  text-align: center;
+  font-size: 1.563em;
+  letter-spacing: 5px;
+  padding-top: 5px;
+}
+
+#img-div {
+  max-width: 100%;
+}
+
+#image {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-style {
+    border-radius: 15%;
+    display: block;
+  }
+
+img.nondrag {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+  
+p.caption {
+  text-align: center;
+  font-size: 0.900em;
+}
+
+h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.main-style {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Special Elite', cursive;
+  font-size: 0.833em;
+  letter-spacing: 0.167em;
+  color: #131313;
+  font-weight: light;
+  line-height: 25px;
+  margin-top: 140px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+
+p.align {
+  text-align: justify;
+}
+
+img.timeline {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+blockquote {
+  font-size: 1.250em;
+  line-height: 40px;
+  text-align: center;
+  background: white;
+  padding: 5px 5px 5px 5px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+
+a {
+  background: #FEF2B7;
+  color: #634806;
+  padding: 2px 2px 2px 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #E6D585;
+}
+
+::selection {
+    background-color: #ECC8D5;
+    color: #161616;
+}
+
+@media screen and (min-width: 1800px) { /* 4K */
+  
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: url(https://i.imgur.com/0WMIzoy.png);
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+  header h1 {
+  position: absolute;
+  padding-left: 290px;
+  padding-bottom: 100px;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 3.125em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-style {
+  font-size: 1.750em;
+  line-height: 38px;
+  margin-top: 220px;
+}
+
+h2 {
+  font-size: 2.000em;
+  letter-spacing: 10px;
+  padding-top: 10px;
+}
+  
+  h3 {
+    font-size: 1.150em;
+  }
+
+  .timeline {
+  width: 15%;
+}
+    blockquote {
+  font-size: 1.500em;
+  line-height: 1.500em;
+}
+
+h4 {
+  font-size: 1.250em;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) { /* LAPTOP */
+  header {
+  background-size: 150%;
+}
+  
+  header h1 {
+  font-weight: bold;
+  font-family: 'Homemade Apple', cursive;
+  letter-spacing: 5px;
+  font-size: 1.000em;
+  padding-left: 450px;
+  padding-bottom: 85px;
+  }
+  
+  #img-div {
+  width: 100%;
+}
+
+  #image img {
+  width: 100%;
+}
+  
+  .main-style {
+  font-size: 0.833em;
+  font-weight: light;
+  margin-top: 140px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+  
+  h2 {
+    font-size: 1.563em;
+  }
+  
+  .timeline {
+    width: 20%;
+  }
+  
+  h3 {
+   font-size: 1.125em;
+  }
+  
+  blockquote {
+  font-size: 1.250em;
+  line-height: 25px;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+}
+
+@media screen and (min-width: 430px) and (max-width:768px) { /* TABLET~ */
+  header {
+  background-size: 150%;
+}
+  
+  header h1 {
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  width: 260px;
+  letter-spacing: 5px;
+  font-size: 1.000em;
+  padding-left: 330px;
+  padding-bottom: 110px;
+  }
+  
+  #img-div {
+  width: 100%;
+}
+
+  #image img {
+  width: 100%;
+}
+  
+  .main-style {
+  font-size: 0.775em;
+  font-weight: light;
+  margin-top: 100px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+  
+  h2 {
+    font-size: 1.350em;
+  }
+  
+  .timeline {
+    width: 25%;
+  }
+  
+  h3 {
+    font-size: 1.200em;
+  }
+  
+  blockquote {
+  font-size: 1.425em;
+  line-height: 25px;
+}
+
+h4 {
+  font-size: 1.325em;
+}
+}
+
+@media screen and (max-width: 428px) and (min-width: 370px){ /* MOBILE L */
+  header {
+  background-size: 150%;
+}
+  
+  header h1 {
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  width: 100px;
+  letter-spacing: 5px;
+  font-size: 0.625em;
+  padding-left: 180px;
+  padding-bottom: 153px;
+  }
+  
+  .main-style {
+  font-size: 0.775em;
+  font-weight: light;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+  
+  h2 {
+    font-size: 1.100em;
+  }
+  
+  .timeline {
+    width: 45%;
+  }
+  
+  h3 {
+    font-size: 1.000em;
+  }
+  
+  blockquote {
+  font-size: 1.225em;
+  line-height: 1.225em;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.225em;
+}
+} 
+
+@media screen and (max-width: 380px) and (min-width: 320px) { /* MOBILE M S */
+   header {
+  background-size: 150%;
+}
+  
+  header h1 {
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  width: 100px;
+  letter-spacing: 0.300em;
+  font-size: 0.600em;
+  padding-left: 160px;
+  padding-bottom: 164px;
+  }
+    .main-style {
+  font-size: 0.625em;
+  font-weight: light;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+    h2 {
+    font-size: 1.000em;
+    line-height: 1.000em;
+  }
+    .timeline {
+    width: 50%;
+  }
+    h3 {
+    font-size: 0.925em;
+
+  }
+  
+   blockquote {
+  font-size: 1.300em;
+  line-height: 1.300em;
+}
+  
+  h4 {
+  font-size: 1.200em;
+  line-height: 1.200em;
+}
+}
